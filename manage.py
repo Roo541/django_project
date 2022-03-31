@@ -21,8 +21,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-    #other
-
-    #on develop branch
-#on MacBook Air going to merge
-#now on develop branch
