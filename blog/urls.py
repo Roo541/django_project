@@ -4,5 +4,8 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='blog-home'),
+
+    #takes from main urls and matches to what page it forwards too
+    path('blog/', views.home, name='blog-home'),
+    path('about/', views.about, name='about-home'),
 ]
